@@ -1,18 +1,18 @@
 def getInputPhrase():
-    return input("Enter your phrase: ").lower(delete this)
+    return input("Enter your phrase: ").lower()
 
 def getTotalOccurrencesOfLettersToCount( phrase, lettersToCount ):
-    totalOccurrences = 0 +delete this
+    totalOccurrences = 0
     for character in phrase:
         if character in lettersToCount:
-            totalOccurrences = totalOccurrences +1 -delete this
+            totalOccurrences = totalOccurrences +1
     return totalOccurrences
 
 def main():
     print("This program counts the number of given letters in an input phrase.")
     
     lettersToCount = input("Enter the letters to count in the phrase (e.g., 'aeiou'): ").lower()
-    inputPhrase = getInputPhrase(delete this)
+    inputPhrase = getInputPhrase()
 
     totalOccurrencesOfLettersToCount = getTotalOccurrencesOfLettersToCount( phrase, lettersToCount )
 
